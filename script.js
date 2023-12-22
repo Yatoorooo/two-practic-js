@@ -8,18 +8,11 @@ names = prompt("What your name?");
 surname = prompt("what tour surname?");
 age = prompt("What tour age?");
 
-user(names);
-user(surname);
-user(age);
-function user(name){
-console.log (name);
-}
+console.log(names , surname , age );
 
-let nubmer1, number2, number3, nubmer4, number5;
-nubmer1 = 1;
-number2 = 2;
-number3 = 3;
-nubmer4 = 4;
-number5 = 5;
+const Numbers = 12345;
+const myString = Numbers.toString();
+ 
+console.log(myString[0], myString[1], myString[2], myString[3], myString[4]);
 
-console.log(nubmer1, number2, number3, nubmer4, number5);
+
